@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" sizes="Image png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" sizes="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+
+        <!-- COMO SERIA SE COMEÇACE PELA IMAGEM MENOR PARA MAIOR
+            
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.png" sizes="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/foto-m.png" sizes="image/png">
+        <img src="imagens/foto-p.png" alt="Imagem flexível"> -->
+        
+    </picture>
+
+    <H1>Reproduzindo Áudio</H1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <!--<audio src="midia/Guess I'll Never Know - TrackTribe.mp3" controls autoplay></audio>
+
+     Compatíveis com: MP3 WAV OGG-->
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Guess I'll Never Know - TrackTribe.mp3" type="audio/mpeg">
+        <source src="midia/Guess I'll Never Know - TrackTribe.ogg" type="audio/ogg">
+        <source src="midia/Guess I'll Never Know - TrackTribe.wav" type="audio/wav">
+    </audio>
+    <!--
+        
+    -->
+</body>
+</html>
