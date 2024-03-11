@@ -5,7 +5,7 @@
 <h1>Curso em Vídeo</h1>
 <h2>Exercícios</h2>
 <ul>
-<li><p><a href ="https://nicollesantos.github.io/html-css/curso-em-video/ex001%20-%20Primeiro%20codigo/index.html">Ex001</a> - Primeiro Código</p>
+<li><p><a href ="https://nicollesantos.github.io/html-css/curso-em-video/exercicios/ex001%20-%20Primeiro%20codigo/index.html">Ex001</a> - Primeiro Código</p>
 <li><p><a href ="https://nicollesantos.github.io/html-css/curso-em-video/exercicios/ex002%20-%20Paragrafos%20e%20quebras/index.html">Ex002</a> - Parágrafos e quebras</p>
 <li><p><a href ="https://nicollesantos.github.io/html-css/curso-em-video/exercicios/ex002.1%20-%20Simbolos%20e%20emojis/index.html">Ex002.1</a> - Símbolos e emojis</p>
 <li><p><a href ="https://nicollesantos.github.io/html-css/curso-em-video/exercicios/ex003%20-%20Tag%20img/index.html">Ex003</a> - Tag &lt;img&gt;</p>
@@ -26,7 +26,7 @@
 <li><p><a href ="https://nicollesantos.github.io/html-css/curso-em-video/exercicios/ex018%20-%20Fontes%20externas/index.html">Ex018</a> - Seletores personalizados</p>
 <li><p><a href ="https://nicollesantos.github.io/html-css/curso-em-video/exercicios/ex019%20-%20Seletores%20Personalizados/index.html">Ex019</a> - Pseudo-classes e elementos</p>
 <li><p><a href ="https://nicollesantos.github.io/html-css/curso-em-video/exercicios/ex020%20-%20Pseudo-Classes%20e%20elementos/index.html">Ex020</a> - Modelo de caixas</p>
-</ul>
+
 
 <br>
 
@@ -41,6 +41,6 @@
 <li><a href = "https://nicollesantos.github.io/html-css/curso-em-video/desafios/d007/index.html">D007</a>
 <li><a href = "https://nicollesantos.github.io/html-css/curso-em-video/desafios/d008/index.html">D008</a>
 <li><a href = "https://nicollesantos.github.io/html-css/curso-em-video/desafios/d009/index.html">D009</a>
-</ul>
+
 
  
