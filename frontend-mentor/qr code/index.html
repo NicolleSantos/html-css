@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr Code</title>
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+    
+    <style>
+        /*Importação de fonte google*/
+        @import url('https://fonts.googleapis.com/css2? family= Work+Sans:wght@400;500;600;700;800 & display=swap');
+
+        /* Estilizações globais */
+        *{
+            font-family: 'Work Sans', sans-serif;
+            text-align: center;
+        }
+
+        /* Estilização no corpo */
+        body{
+            background-color: #d5e1ef;
+        }
+
+        /* Estilização da caixa central */
+        main{
+            background-color: white;
+            border-radius: 10px;
+            width: 250px;
+            height: 410px;
+            padding: 13px;
+            margin: auto;
+            box-shadow: 00px 00px 15px rgb(199, 198, 198);
+        }
+
+        /* Estilização da imagem */
+        img{
+            border-radius: 10px;
+            width: 250px;;
+        }
+    </style>
+
+</head>
+<body>
+
+    <main>
+    <picture>
+        <source media="(max-width: 200px)" srcset="imagens/image-qr-code-576.png" type="image/png">
+        <source media="(max-width: 350px)" srcset="imagens/image-qr-code-576.png" type="image/png">
+        <img src="imagens/image-qr-code-576.png" alt="Imagem flexível">
+    </picture>
+
+    <p style="font-weight: 800; text-align: center; font-size: 17px;">Improve your front-end skills by building projects</p>
+    <p style="color: #787c86; text-align: center; font-size: 14px;">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </main>
+</body>
+</html>
