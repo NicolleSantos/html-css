@@ -3,29 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
-            background-repeat: no-repeat;
+            background-position: center center;
+            background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /*SHORTHAND BACKGROUND:
+                color > image > position > repeat > [size] > attachment
+
+                Por mais que na regra o SIZE esteja ali, ele ainda não está funcionando nos navegadores, então colocamos separado.
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
-            padding: 10px;
+            max-width: 400px;
+            padding: 15px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
+            text-align: justify;
         }
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex nulla molestiae obcaecati cumque quibusdam. Ullam, repudiandae numquam asperiores unde vitae totam minima tempora velit deserunt consectetur, quo earum quisquam eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quisquam! Magnam veniam reiciendis iusto odio modi, inventore, fugit quam dicta provident consequuntur excepturi esse vitae corrupti, pariatur odit velit dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nostrum, magnam cupiditate voluptatibus magni autem commodi, adipisci ipsa placeat non ipsum numquam. Sunt, architecto explicabo aliquid ex quia ipsam assumenda?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex nulla molestiae obcaecati cumque quibusdam. Ullam, repudiandae numquam asperiores unde vitae totam minima tempora velit deserunt consectetur, quo earum quisquam eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quisquam! Magnam veniam reiciendis iusto odio modi, inventore, fugit quam dicta provident consequuntur excepturi esse vitae corrupti, pariatur odit velit dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nostrum, magnam cupiditate voluptatibus magni autem commodi, adipisci ipsa placeat non ipsum numquam. Sunt, architecto explicabo aliquid ex quia ipsam assumenda?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex nulla molestiae obcaecati cumque quibusdam. Ullam, repudiandae numquam asperiores unde vitae totam minima tempora velit deserunt consectetur, quo earum quisquam eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quisquam! Magnam veniam reiciendis iusto odio modi, inventore, fugit quam dicta provident consequuntur excepturi esse vitae corrupti, pariatur odit velit dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nostrum, magnam cupiditate voluptatibus magni autem commodi, adipisci ipsa placeat non ipsum numquam. Sunt, architecto explicabo aliquid ex quia ipsam assumenda?</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex nulla molestiae obcaecati cumque quibusdam. Ullam, repudiandae numquam asperiores unde vitae totam minima tempora velit deserunt consectetur, quo earum quisquam eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quisquam! Magnam veniam reiciendis iusto odio modi, inventore, fugit quam dicta provident consequuntur excepturi esse vitae corrupti, pariatur odit velit dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nostrum, magnam cupiditate voluptatibus magni autem commodi, adipisci ipsa placeat non ipsum numquam. Sunt, architecto explicabo aliquid ex quia ipsam assumenda?</p>
     </main>
 </body>
